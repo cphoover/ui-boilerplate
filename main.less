@@ -1,0 +1,39 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	font-family: arial;
+}
+
+[id^="page"] {
+	margin-top: 60px;
+}
+
+h1 {
+	color: black;
+	font-weight: bold;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1; /* ie 6/7 */
+}
+
+img {
+	max-width: 100%;
+}
